@@ -1,0 +1,99 @@
+body {
+    background-color: #F8F1F1;
+    background-image: url('https://cdn.glitch.global/8b1fc574-228b-4655-8088-34e93b5d9d33/image.jpg?v=1679170926161');
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+/* Containers -------------------------- */
+#header {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+#computer {
+    display: flex;
+    margin-top: 50px;
+
+}
+#question-container {
+    background-color: #11698E;
+    border-radius: 20px 20px 20px 0px;
+    margin: 0px;
+}
+
+#user {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+#answer-container {
+    background-color: #19456B;
+    border-radius: 20px 20px 0px 20px;
+
+}
+.box {
+    color: #F8F1F1;
+    padding: 20px;
+    font-family: 'Sono', sans-serif;
+    max-width: 60%;
+}
+#timerText {
+    display: none;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 15px 0px 0px 0px;
+}
+#work, #rest {
+    color: #16C79A;
+    display: none;
+}
+/* Other ------------------------------- */
+h1 {
+    color: #19456B;
+    font-family: 'Sono', sans-serif;
+    font-size: 45px;
+}
+h3 {
+    font-size: 30px;
+}
+#inputField {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Sono', sans-serif;
+    background-color: #F8F1F1;
+}
+#btn {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    font-family: 'Sono', sans-serif;
+    background-color: #16C79A;
+    color: #19456B;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Adaptation ---------------------------- */
+@media all and (max-width: 550px) {
+    h1 {
+        font-size: 27px;
+
+    }
+    h3 {
+        font-size: 25px;
+    }
+    #inputField {
+        font-size: 15px;
+    }
+    #btn {
+        font-size: 15px;
+    }
+
+}

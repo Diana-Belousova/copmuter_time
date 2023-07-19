@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer time</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <div id="header">
+        <h1>Computer work balance</h1>
+    </div>
+    
+    <div id="computer">
+        <div class="box" id="question-container">
+            <h3 id="question"><span id="work">Work</span><span id="rest">Rest</span>How much time do you want to work on computer?</h3>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="user">
+        <div class="box" id="answer-container" >
+
+            <p id="timerText">--:--</p>
+            <input id="inputField" type="text" placeholder="Write in minutes...">
+            <br>
+            <button id="btn">Set</button>
+        </div>
+    </div>
+    <audio id="audioStart" src="bubble.wav"></audio>
+    <audio id="audioRest" loop src="KUDO - cool winds.mp3"></audio>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
